@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CaptureViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton * button = [[UIButton alloc] initWithFrame:self.view.bounds];
+    [button setTitle:@"开启相机" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(gotoCapture) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)gotoCapture{
+    CaptureViewController * cap = [[CaptureViewController alloc] init];
+    
+    [self presentViewController:cap animated:YES completion:nil];
 }
-
 
 @end

@@ -14,6 +14,16 @@
 		E01DC1A32057A1610019CA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01DC1A12057A1610019CA9C /* LaunchScreen.storyboard */; };
 		E01DC1A62057A1610019CA9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1A52057A1610019CA9C /* main.m */; };
 		E01DC1B02057A1610019CA9C /* AVCapture_openglUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1AF2057A1610019CA9C /* AVCapture_openglUITests.m */; };
+		E01DC1BF2057A21C0019CA9C /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1BE2057A21C0019CA9C /* CaptureViewController.m */; };
+		E01DC1D22057BF6C0019CA9C /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E01DC1C12057BF6B0019CA9C /* 0.jpeg */; };
+		E01DC1D32057BF6C0019CA9C /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1C42057BF6B0019CA9C /* CC3Foundation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E01DC1D42057BF6C0019CA9C /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1C62057BF6B0019CA9C /* CC3GLMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E01DC1D52057BF6C0019CA9C /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1C72057BF6B0019CA9C /* CC3Kazmath.c */; };
+		E01DC1D62057BF6C0019CA9C /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1CB2057BF6B0019CA9C /* CC3Math.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E01DC1D72057BF6C0019CA9C /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01DC1CE2057BF6B0019CA9C /* OpenGLView.m */; };
+		E01DC1D82057BF6C0019CA9C /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E01DC1CF2057BF6B0019CA9C /* SimpleFragment.glsl */; };
+		E01DC1D92057BF6C0019CA9C /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E01DC1D02057BF6B0019CA9C /* SimpleVertex.glsl */; };
+		E01DC1DA2057BF6C0019CA9C /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = E01DC1D12057BF6B0019CA9C /* tile_floor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,24 @@
 		E01DC1AB2057A1610019CA9C /* AVCapture+openglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVCapture+openglUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01DC1AF2057A1610019CA9C /* AVCapture_openglUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCapture_openglUITests.m; sourceTree = "<group>"; };
 		E01DC1B12057A1610019CA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01DC1BD2057A21C0019CA9C /* CaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		E01DC1BE2057A21C0019CA9C /* CaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		E01DC1C12057BF6B0019CA9C /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		E01DC1C32057BF6B0019CA9C /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		E01DC1C42057BF6B0019CA9C /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		E01DC1C52057BF6B0019CA9C /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		E01DC1C62057BF6B0019CA9C /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		E01DC1C72057BF6B0019CA9C /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		E01DC1C82057BF6B0019CA9C /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		E01DC1C92057BF6B0019CA9C /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		E01DC1CA2057BF6B0019CA9C /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		E01DC1CB2057BF6B0019CA9C /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		E01DC1CC2057BF6B0019CA9C /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		E01DC1CD2057BF6B0019CA9C /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		E01DC1CE2057BF6B0019CA9C /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		E01DC1CF2057BF6B0019CA9C /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		E01DC1D02057BF6B0019CA9C /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		E01DC1D12057BF6B0019CA9C /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +113,9 @@
 				E01DC1972057A1610019CA9C /* AppDelegate.m */,
 				E01DC1992057A1610019CA9C /* ViewController.h */,
 				E01DC19A2057A1610019CA9C /* ViewController.m */,
+				E01DC1BD2057A21C0019CA9C /* CaptureViewController.h */,
+				E01DC1BE2057A21C0019CA9C /* CaptureViewController.m */,
+				E01DC1C02057BF6B0019CA9C /* opengl */,
 				E01DC19C2057A1610019CA9C /* Main.storyboard */,
 				E01DC19F2057A1610019CA9C /* Assets.xcassets */,
 				E01DC1A12057A1610019CA9C /* LaunchScreen.storyboard */,
@@ -101,6 +132,37 @@
 				E01DC1B12057A1610019CA9C /* Info.plist */,
 			);
 			path = "AVCapture+openglUITests";
+			sourceTree = "<group>";
+		};
+		E01DC1C02057BF6B0019CA9C /* opengl */ = {
+			isa = PBXGroup;
+			children = (
+				E01DC1C12057BF6B0019CA9C /* 0.jpeg */,
+				E01DC1C22057BF6B0019CA9C /* CC3 */,
+				E01DC1CD2057BF6B0019CA9C /* OpenGLView.h */,
+				E01DC1CE2057BF6B0019CA9C /* OpenGLView.m */,
+				E01DC1CF2057BF6B0019CA9C /* SimpleFragment.glsl */,
+				E01DC1D02057BF6B0019CA9C /* SimpleVertex.glsl */,
+				E01DC1D12057BF6B0019CA9C /* tile_floor.png */,
+			);
+			path = opengl;
+			sourceTree = "<group>";
+		};
+		E01DC1C22057BF6B0019CA9C /* CC3 */ = {
+			isa = PBXGroup;
+			children = (
+				E01DC1C32057BF6B0019CA9C /* CC3Foundation.h */,
+				E01DC1C42057BF6B0019CA9C /* CC3Foundation.m */,
+				E01DC1C52057BF6B0019CA9C /* CC3GLMatrix.h */,
+				E01DC1C62057BF6B0019CA9C /* CC3GLMatrix.m */,
+				E01DC1C72057BF6B0019CA9C /* CC3Kazmath.c */,
+				E01DC1C82057BF6B0019CA9C /* CC3Kazmath.h */,
+				E01DC1C92057BF6B0019CA9C /* CC3Logging.h */,
+				E01DC1CA2057BF6B0019CA9C /* CC3Math.h */,
+				E01DC1CB2057BF6B0019CA9C /* CC3Math.m */,
+				E01DC1CC2057BF6B0019CA9C /* ccTypes.h */,
+			);
+			path = CC3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01DC1DA2057BF6C0019CA9C /* tile_floor.png in Resources */,
 				E01DC1A32057A1610019CA9C /* LaunchScreen.storyboard in Resources */,
 				E01DC1A02057A1610019CA9C /* Assets.xcassets in Resources */,
+				E01DC1D22057BF6C0019CA9C /* 0.jpeg in Resources */,
 				E01DC19E2057A1610019CA9C /* Main.storyboard in Resources */,
+				E01DC1D82057BF6C0019CA9C /* SimpleFragment.glsl in Resources */,
+				E01DC1D92057BF6C0019CA9C /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +271,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01DC1D52057BF6C0019CA9C /* CC3Kazmath.c in Sources */,
 				E01DC19B2057A1610019CA9C /* ViewController.m in Sources */,
+				E01DC1BF2057A21C0019CA9C /* CaptureViewController.m in Sources */,
 				E01DC1A62057A1610019CA9C /* main.m in Sources */,
+				E01DC1D32057BF6C0019CA9C /* CC3Foundation.m in Sources */,
 				E01DC1982057A1610019CA9C /* AppDelegate.m in Sources */,
+				E01DC1D42057BF6C0019CA9C /* CC3GLMatrix.m in Sources */,
+				E01DC1D72057BF6C0019CA9C /* OpenGLView.m in Sources */,
+				E01DC1D62057BF6C0019CA9C /* CC3Math.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,11 +429,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK6YHQ3P45;
 				INFOPLIST_FILE = "AVCapture+opengl/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbar.AVCapture-opengl";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navinfo.guo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -370,11 +447,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK6YHQ3P45;
 				INFOPLIST_FILE = "AVCapture+opengl/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbar.AVCapture-opengl";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navinfo.guo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
